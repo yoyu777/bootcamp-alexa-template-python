@@ -1,3 +1,7 @@
 .venv/
 lambda_upload/
 personal-askconfig
+
+.vscode
+**/__pycache__
+venv
