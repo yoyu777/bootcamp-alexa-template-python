@@ -29,8 +29,7 @@ class LaunchRequestHandler(AbstractRequestHandler):
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
-        # TODO: Change the welcome message here
-        speak_output = "Welcome to the bootcamp demo"
+        speak_output = "Welcome to the rock paper scissors game, what will you play?"
 
         return (
             handler_input.response_builder
